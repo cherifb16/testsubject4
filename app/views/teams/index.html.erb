@@ -1,0 +1,23 @@
+<div class="main-content">
+<h1>チーム一覧</h1>
+
+<table>
+  <thead>
+    <tr>
+      <%# <th>チーム名</th> %>
+      <%# <th colspan="10"></th> %>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @teams.each do |team| %>
+      <tr>
+        <td><%= team.name %></td>
+        <td><%= link_to '詳細', team, class: "btn mini-btn" %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+</div>

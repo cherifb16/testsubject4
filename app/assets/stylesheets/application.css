@@ -1,0 +1,464 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+/* -----------ボタン関連----------------- */
+
+.btn-cover {
+    display: flex;
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 6px;
+    color: #fff !important;
+    background-color: #7890a4;
+    border: none;
+    padding: 4px 6px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.btn:hover {
+	opacity: 0.7;
+}
+
+.sign-btn {
+    color: #fff !important;
+    font-size: 20px;
+    background-color: #4dbf80;
+    border: 1px solid #4dbf80;
+    top: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -o-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-align-self: stretch;
+    align-self: stretch;
+    -ms-flex-item-align: stretch;
+    -webkit-box-flex: 2;
+    -moz-box-flex: 2;
+    -o-box-flex: 2;
+    -ms-box-flex: 2;
+    box-flex: 2;
+    -webkit-flex-grow: 2;
+    flex-grow: 2;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 3px 2px #ccc;
+    box-shadow: 0px 3px 2px #ccc;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    line-height: 140%;
+    -webkit-appearance: none;
+    padding: 20px 80px 20px 80px;
+    width: 320px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.btn-header {
+    min-width: 120px;
+    min-height: 36px;
+    line-height: 36px;
+    margin-top: 22px;
+    text-align: center;
+    font-size: 14px;
+    background: rgba(255,255,255,0.1);
+    margin-left: 10px;
+    color: #fff;
+    border: none;
+}
+
+.admin-btn {
+    background-color: #0D6EFD;
+    padding: 20px;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+.mini-btn {
+    display: inline-block;
+    padding: 7px 12px;
+    text-decoration: none;
+    background: rgb(255, 195, 91);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 11px;
+}
+
+/* ------------------ログインの入力フォーム------------------ */
+
+.form {
+    padding: 0 10px;
+    height: 40px;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    background-color: #ebf4ff;
+    border: 2px solid #d2e2f0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-top: 0;
+}
+
+h3 {
+    margin-top: 25px;
+}
+
+.sign-content {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    /* -webkit-box-shadow: 0px 0px 6px 0px rgb(6 0 1 / 5%);
+    box-shadow: 0px 0px 6px 0px rgb(6 0 1 / 5%); */
+    margin: 0 auto;
+    padding: 50px;
+    width: 720px;
+    margin: auto;
+    text-align:center;
+    margin-top: 20px;
+}
+
+/* ----------------共通----------------- */
+
+.main-content {
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 5px;
+    /* -webkit-box-shadow: 0px 0px 6px 0px rgb(6 0 1 / 5%);
+    box-shadow: 0px 0px 6px 0px rgb(6 0 1 / 5%); */
+    margin: 0 auto;
+    padding: 50px;
+    width: 85%;
+}
+
+.sub-content {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.sub-content h3  {
+    text-align: left;
+}
+
+.footerFixed {
+    min-height: 75vh !important;
+}
+
+body {
+    padding-top: 85px;
+    /* ヘッダーの後ろに要素が隠れないようにするため */
+    background-color: #eee;
+    margin: 0;
+    min-height: 100vh !important;
+    display: flex;
+    flex-direction: column;
+}
+
+button, input, select, textarea, pre, th, td, li, dt, dd {
+    font-family: inherit;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right {
+    margin-right: 0;
+    margin-left: auto;
+    width: 15%;
+}
+
+/* ------------------ヘッダー,フッター---------------- */
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #0058A0;
+    box-sizing: border-box; /* padding分を含んで幅を100%にするため */
+    position: fixed; /* ウィンドウを基準に画面に固定 */
+    top: 0; /* 上下の固定位置を上から0pxにする */
+    left: 0; /* 左右の固定位置を左から0pxにする */
+    display:flex;
+    justify-content: flex-end;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.logo-img {
+    margin-right: auto;
+    height: 80px;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #b3b3b3;
+    color: white;
+    text-align: center;
+    margin-top:50px;
+    padding:0;
+    bottom: 0; /* 上下の固定位置を↓から0pxにする */
+    left: 0; /* 左右の固定位置を左から0pxにする */
+}
+
+.footer-logo {
+    padding-top:16px ;
+}
+/* -------------テーブルの装飾------------------ */
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+table, th, td {
+    border: none;
+}
+
+th {
+    margin-top: 25px;
+    text-align: center;
+}
+
+td {
+    background-color: #fff;
+    padding: 10px;
+    border: 10px;
+}
+
+td.completion {
+    background-color: #fa6257;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 10px;
+    margin: 0px;
+    width: 7vmin;
+    height: 7vmin;
+}
+
+td.done {
+    background-color: #bbbbbb;
+}
+
+@keyframes flash {
+    0%{ background:white; }
+    100%{  background:linear-gradient(transparent 70%, rgb(254, 145, 145) 40%); }
+}
+
+span.urgent {
+    animation: flash 1.5s linear infinite;
+}
+
+tr.urgent {
+    font-weight: bold;
+}
+
+td.request {
+    background-color:  rgba(255,255,255,0.1);
+}
+
+span.request {
+    position: relative;
+    padding: 0.5em;
+    background: #80cab7;
+    color: white;
+}
+
+span.request:before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 0;
+    border: none;
+    border-bottom: solid 7px transparent;
+    border-right: solid 20px rgb(215, 215, 215);
+}
+
+td.index-title {
+    max-width: 35%;
+}
+
+td.request-msg {
+    max-width: 400px;
+}
+
+tr {
+    margin: 10px;
+    height: 40px;
+}
+
+.font {
+    font-weight: bold;
+}
+
+/* task-showの完了の文字色 */
+.done {
+    color: #999999;
+}
+
+/* 未完了 */
+.Incomplete {
+    color: #fa6257;
+}
+
+.normal {
+    color: dimgray;
+}
+
+.low {
+    color: #bbbbbb;
+}
+
+/* ----------------index,showページの装飾---------------- */
+
+.search {
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.task-form  {
+    margin-right: 100px;
+}
+
+.task-show  {
+    margin-right: 100px;
+    max-width: 50%;
+}
+
+.team-show  {
+    margin-right: 100px;
+}
+
+.user-show  {
+    margin-right: 100px;
+}
+
+.request-show {
+    max-width: 400px;
+    margin-right: 200px;
+}
+
+/* -------------トップページの装飾------------------- */
+
+.top-content {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    /* -webkit-box-shadow: 0px 0px 6px 0px rgb(6 0 1 / 5%);
+    box-shadow: 0px 0px 6px 0px rgb(6 0 1 / 5%); */
+    margin: 0 auto;
+    padding: 50px;
+    width: 1000px;
+    margin: auto;
+    text-align:center;
+    margin-top: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+
+.app-name {
+    color: #fff;
+    -webkit-text-stroke: 2px #0058A0;
+    font-size: 40px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: italic;
+}
+
+.top-h {
+    background:linear-gradient(transparent 60%, #ff6 60%);
+}
+
+.top-img {
+    width: 220px;
+}
+
+.top-img-2 {
+    width: 220px;
+    margin-right: 30px;
+
+}
+
+.inner {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 80%;
+}
+
+.inner-2 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.left-2 {
+    text-align: left;
+    max-width: 75%;
+}
+
+.right-2 {
+    text-align: left;
+    margin-left: auto;
+    max-width: 80%;
+}
+
+/* ---------------ページネーション------------------------- */
+/*ページネーション自体のデザイン*/
+.pagination>li>a {
+    border: none;     /*枠線をなくす*/
+    color: #696969;   /*文字の色を変える*/
+}
+
+  /* 表示しているページ番号のデザイン */
+.pagination>.active>a {
+    background: #93c9ff;     /*背景の色を変える*/
+    border-radius: 15px;     /*角を丸くする*/
+}
+
+/*ホバー時のデザイン*/
+.pagination>li>a:hover {
+    border-radius: 15px;    /*角を丸くする*/
+}
+
+#error_explanation {
+    /* width:100px; */
+}
+

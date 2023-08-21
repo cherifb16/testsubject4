@@ -1,0 +1,7 @@
+<div class="main-content">
+    <%= render 'form', team: @team %>
+    <div class="btn-cover">
+        <%= button_to '詳細', @team, {method: :get, class:"btn " }%>
+        <%= button_to "チーム一覧", {controller: "teams", action: "index"}, {method: :get, class:"btn" } %>
+    </div>
+</div>
