@@ -18,12 +18,12 @@ rails s
 
 
 
-[ALL Links](https://docs.google.com/spreadsheets/d/1Ib-86YodO7JT1gTZuZwRTDgq8llxIU70eoynsaBcQp0/edit?usp=sharing)
+[All links](https://docs.google.com/spreadsheets/d/1Ib-86YodO7JT1gTZuZwRTDgq8llxIU70eoynsaBcQp0/edit?usp=sharing)
 
 ## Wireframe
 
 
-[WIREFRAME](https://www.figma.com/file/DRHEv3iIi7iDg5MOV4nuo1/TrackIt-Wireframe?type=design&node-id=0%3A1&mode=design&t=RohcBcYmURHJJkw2-1)
+[Wireframe](https://www.figma.com/file/DRHEv3iIi7iDg5MOV4nuo1/TrackIt-Wireframe?type=design&node-id=0%3A1&mode=design&t=RohcBcYmURHJJkw2-1)
 
 
 # ERD
