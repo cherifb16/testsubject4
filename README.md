@@ -6,7 +6,7 @@
 
 # Execution Procedure
 ```
-git clone git@github.com:progate2222/TrackIt.git
+git clone git@github.com:username/TrackIt.git
 bundle install
 rails webpacker:install
 rails db:create
