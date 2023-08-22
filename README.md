@@ -32,4 +32,4 @@ https://www.figma.com/file/DRHEv3iIi7iDg5MOV4nuo1/TrackIt-Wireframe?type=design&
 <img src= "document/TrackIt.drawio.png">
 
 # 画面遷移図
-<img src= "document/画面遷移図.PNG">
+<img src= "document/Track-it_ScreenTrans.drawio.png">
