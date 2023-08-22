@@ -29,7 +29,7 @@ https://docs.google.com/spreadsheets/d/1Ib-86YodO7JT1gTZuZwRTDgq8llxIU70eoynsaBc
 https://www.figma.com/file/DRHEv3iIi7iDg5MOV4nuo1/TrackIt-Wireframe?type=design&node-id=0%3A1&mode=design&t=RohcBcYmURHJJkw2-1
 
 # ER図
-<img src= "document/ER図.PNG">
+<img src= "document/TrackIt.drawio.png">
 
 # 画面遷移図
 <img src= "document/画面遷移図.PNG">
